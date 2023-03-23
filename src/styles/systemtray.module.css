@@ -1,0 +1,11 @@
+.systemTray {
+    flex: 0 0 100px;
+    margin: 4px 2px;
+    border: 1px solid #7f787f;
+    line-height: 32px;
+}
+
+.systemTray > .clock {
+    float: right;
+    margin-right: 15px;
+}

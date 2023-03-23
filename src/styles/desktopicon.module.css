@@ -1,0 +1,13 @@
+.icon {
+    margin-left: 15px;
+    user-select: none;
+}
+
+.icon > img {
+    max-width: 80px;
+    display: block;
+}
+
+.icon > span {
+    color: white;
+}

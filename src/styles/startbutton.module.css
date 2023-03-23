@@ -1,0 +1,10 @@
+.startBtn {
+    background: transparent;
+    border: none;
+    margin: 4px 2px;
+    flex: 0 0 80px;
+}
+
+.startBtn > img {
+    max-width: 80px;
+}
