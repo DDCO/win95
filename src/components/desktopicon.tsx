@@ -1,8 +1,15 @@
+import { useContext } from "react";
+import { WindowContext, WindowContextType } from "../context/context";
 import styles from '@/styles/desktopicon.module.css'
-import Window from './window'
 
 export default function DesktopIcon(prop: any) {
-  const openWindow = function () {};
+  const { windows, setWindows } = useContext(WindowContext) as WindowContextType;
+
+  const openWindow = () => {
+    const newWindows = [...windows];
+    newWindows.push('Window');
+    setWindows(newWindows);
+  }
 
   return (
     <div className={styles.icon} onClick={openWindow}>

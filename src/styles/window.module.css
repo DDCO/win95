@@ -1,0 +1,37 @@
+.window {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 640px;
+    border: 4px solid #c3c7ca;
+    user-select: none;
+}
+
+.window > .titlebar {
+    background-color: #0100ab;
+    color: white;
+    display: flex;
+}
+
+.window > .titlebar > .title {
+    flex: 1 1 auto;
+}
+
+.window > .titlebar > .actions {
+    flex: 0 0 100px;
+}
+
+.window > .toolbar > ul {
+    list-style-type: none;
+    background-color: #c3c7ca;
+}
+
+.window > .toolbar > ul > li {
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.window > .content {
+    height: 400px;
+    background-color: white;
+}
