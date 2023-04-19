@@ -1,6 +1,6 @@
 
 export default function StartMenu() {
   return (
-    <h1>I'm a start menu</h1>
+    <h1>Im a start menu</h1>
   )
 }
